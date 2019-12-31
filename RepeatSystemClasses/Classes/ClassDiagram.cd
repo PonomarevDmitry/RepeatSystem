@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RepeatSystem.Classes.Tag" Collapsed="true">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Tag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RepeatSystem.Classes.Author" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEgAAAAAAAAEAAAAAAAABAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Author.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RepeatSystem.Classes.Book" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAQAAAAAECAAAAAQAAABAAMAAQCDAQAEAAAA=</HashCode>
+      <FileName>Classes\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RepeatSystem.Classes.Fact" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAAAAEAAAgAAQAAQAAAIAEAAAAAgAAAAA=</HashCode>
+      <FileName>Classes\Fact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RepeatSystem.Classes.Person" Collapsed="true">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAGAEgAAAAQAAAAAAAAQAAABAAIAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RepeatSystem.Classes.Publisher" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAMAAAAAAQAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Publisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RepeatSystem.Classes.Reading" Collapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACCAAAAAAAAAABEAAAgAACAAAAgAIAAABAAAAAAAAA=</HashCode>
+      <FileName>Classes\Reading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RepeatSystem.Classes.RepetitionDate" Collapsed="true">
+    <Position X="1" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAgAEgAAEAAAAAAAAAIAAABAAAAAAAAA=</HashCode>
+      <FileName>Classes\RepetitionDate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RepeatSystem.Classes.RepetitionType" Collapsed="true">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAEgUAAAAQAAAAAAIAEAAAAAIBAAAA=</HashCode>
+      <FileName>Classes\RepetitionNumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="RepeatSystem.Classes.FactType" Collapsed="true">
+    <Position X="1" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\FactType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

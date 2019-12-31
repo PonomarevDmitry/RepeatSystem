@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{572D38BB-9BB7-49B5-A6FE-E44E0BF0C640}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RepeatSystemForms</RootNamespace>
+    <AssemblyName>RepeatSystemForms</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GridViewExtensions, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="PKBControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPassword.designer.cs">
+      <DependentUpon>FormPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormAuthorCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormAuthorCard.designer.cs">
+      <DependentUpon>FormAuthorCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormAuthorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormAuthorList.designer.cs">
+      <DependentUpon>FormAuthorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormBookCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormBookCard.designer.cs">
+      <DependentUpon>FormBookCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormBookList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormBookList.designer.cs">
+      <DependentUpon>FormBookList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormCityCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormCityCard.designer.cs">
+      <DependentUpon>FormCityCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormCityList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormCityList.designer.cs">
+      <DependentUpon>FormCityList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormFactCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormFactCard.designer.cs">
+      <DependentUpon>FormFactCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormFactList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormFactList.designer.cs">
+      <DependentUpon>FormFactList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormMode.cs" />
+    <Compile Include="Gui\FormPersonCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormPersonCard.designer.cs">
+      <DependentUpon>FormPersonCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormPersonList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormPersonList.designer.cs">
+      <DependentUpon>FormPersonList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormPublisherCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormPublisherCard.designer.cs">
+      <DependentUpon>FormPublisherCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormPublisherList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormPublisherList.designer.cs">
+      <DependentUpon>FormPublisherList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormReadingCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormReadingCard.designer.cs">
+      <DependentUpon>FormReadingCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormReadingList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormReadingList.designer.cs">
+      <DependentUpon>FormReadingList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormTagCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormTagCard.designer.cs">
+      <DependentUpon>FormTagCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormTagList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormTagList.designer.cs">
+      <DependentUpon>FormTagList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormThoughtCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormThoughtCard.designer.cs">
+      <DependentUpon>FormThoughtCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FormThoughtList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FormThoughtList.designer.cs">
+      <DependentUpon>FormThoughtList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgramConfiguraton.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPassword.resx">
+      <DependentUpon>FormPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormAuthorCard.resx">
+      <DependentUpon>FormAuthorCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormAuthorList.resx">
+      <DependentUpon>FormAuthorList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormBookCard.resx">
+      <DependentUpon>FormBookCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormBookList.resx">
+      <DependentUpon>FormBookList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormCityCard.resx">
+      <DependentUpon>FormCityCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormCityList.resx">
+      <DependentUpon>FormCityList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormFactCard.resx">
+      <DependentUpon>FormFactCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormFactList.resx">
+      <DependentUpon>FormFactList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormPersonCard.resx">
+      <DependentUpon>FormPersonCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormPersonList.resx">
+      <DependentUpon>FormPersonList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormPublisherCard.resx">
+      <DependentUpon>FormPublisherCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormPublisherList.resx">
+      <DependentUpon>FormPublisherList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormReadingCard.resx">
+      <DependentUpon>FormReadingCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormReadingList.resx">
+      <DependentUpon>FormReadingList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormTagCard.resx">
+      <DependentUpon>FormTagCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormTagList.resx">
+      <DependentUpon>FormTagList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormThoughtCard.resx">
+      <DependentUpon>FormThoughtCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FormThoughtList.resx">
+      <DependentUpon>FormThoughtList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GridViewExtensions.dll" />
+    <Content Include="PKBControls.dll" />
+    <None Include="Resources\Users2.png" />
+    <None Include="Resources\users.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\Search.png" />
+    <None Include="Resources\Query.png" />
+    <None Include="Resources\PrintView.png" />
+    <None Include="Resources\PrintHS.png" />
+    <None Include="Resources\PrintArea.png" />
+    <None Include="Resources\MSExcel.png" />
+    <None Include="Resources\IndexUp.png" />
+    <None Include="Resources\IndexDown.png" />
+    <None Include="Resources\Filter.png" />
+    <None Include="Resources\FieldRemoveAll.png" />
+    <None Include="Resources\FieldRemove.png" />
+    <None Include="Resources\FieldAdd.png" />
+    <None Include="Resources\eventlog.png" />
+    <None Include="Resources\Erase.png" />
+    <None Include="Resources\Edit.png" />
+    <None Include="Resources\Delete_black_32x32.png" />
+    <None Include="Resources\Delete.png" />
+    <None Include="Resources\CreateMaternityLeaveFromSickList.png" />
+    <None Include="Resources\CollapseAll.bmp" />
+    <None Include="Resources\CleanFilter.png" />
+    <None Include="Resources\Add.png" />
+    <None Include="Resources\112_Tick_Green_32x32_72.png" />
+    <None Include="Resources\112_RefreshArrow_Blue_24x24_72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RepeatSystemClasses\RepeatSystemClasses.csproj">
+      <Project>{8660EED7-BCE5-409E-B365-FB534267C522}</Project>
+      <Name>RepeatSystemClasses</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
